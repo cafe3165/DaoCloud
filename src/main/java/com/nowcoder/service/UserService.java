@@ -90,7 +90,6 @@ public class UserService {
 
         String ticket = addLoginTicket(user.getId());
         map.put("ticket", ticket);
-        map.put("userId", user.getId());
         return map;
     }
 
